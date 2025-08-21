@@ -1,0 +1,34 @@
+# Archivos compilados de Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Directorios de build de NetBeans con Ant
+/build/
+/dist/
+/nbproject/private/
+
+# No ignores estos archivos de configuración (deben versionarse):
+# /nbproject/project.xml
+# /nbproject/build-impl.xml
+
+# Archivos de log
+*.log
+
+# Archivos de backup y temporales
+*~
+*.bak
+*.old
+*.tmp
+
+# Archivos del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de datos de prueba (si los tienes)
+/test-results/
+/test-output/
+
+# Archivos de librerías externas (si las descargas manualmente)
+/lib/ # pero cuidado: si son dependencias necesarias, quizás sí deban versionarse
